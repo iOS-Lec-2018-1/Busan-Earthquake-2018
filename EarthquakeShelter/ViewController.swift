@@ -214,7 +214,6 @@ class ViewController: UIViewController, XMLParserDelegate,CLLocationManagerDeleg
         if !data.isEmpty {
             item[currentElement] = data
         }
-        
     }
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
